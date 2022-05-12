@@ -268,14 +268,10 @@ const animationTimeline = () => {
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
-  const element = document.getElementById("lagu");
-  element.addEventListener("click", myFunction);
-  
-  function myFunction() {
-    const lagunya = '<audio id="player" autoplay loop> <source src="habede.mp3" type="audio/mp3"></audio>';
-    element.innerHTML=lagunya;
-  }
-
+  $('#play').click(function(){
+		var audio = $('.player')[0];
+        audio.play();
+  });
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
