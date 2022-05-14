@@ -268,10 +268,6 @@ const animationTimeline = () => {
   // tl.seek("currentStep");
   // tl.timeScale(2);
 
-  $('#play').click(function(){
-		var audio = $('.player')[0];
-        audio.play();
-  });
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
