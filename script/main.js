@@ -278,9 +278,7 @@ const animationTimeline = () => {
     const show = document.getElementById("container");
     nine.style.display = "none";
     const text = `<h1>Hope you like it!</h1>
-    <video autoplay>
-      <source src="nyebelin.mp4" type="video/mp4" />
-    </video>`;
+    <iframe src="https://drive.google.com/file/d/1fFpkYaY8_-Ss5t_AVuS2G2kz_Jpytqy5/preview" width="640" height="480" allow="autoplay"></iframe>`;
     show.innerHTML = text;
   });
 };
