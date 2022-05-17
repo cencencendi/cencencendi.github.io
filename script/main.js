@@ -278,7 +278,7 @@ const animationTimeline = () => {
     const show = document.getElementById("container");
     nine.style.display = "none";
     const text = `<h1>Hope you like it!</h1>
-    <iframe width="1000" height="720" src="https://www.youtube-nocookie.com/embed/kCQip7FLD3Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+    <iframe width="1290" height="680" src="https://www.youtube.com/embed/eQyA5ty9VDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
     show.innerHTML = text;
   });
 };
